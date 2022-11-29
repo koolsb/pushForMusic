@@ -1,0 +1,10 @@
+[Unit]
+Description=Run button script on startup
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /home/fpp/button.py
+
+[Install]
+WantedBy=multi-user.target
