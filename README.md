@@ -1,6 +1,8 @@
 # pushForMusic
 
-Push for Music is a python script that turns on a relay connected to an amplifier whenever a button is pressed for a specified period of time. This enhances a standard timer relay with the following features:
+Push for Music is a python script that turns on a relay connected to an amplifier whenever a button is pressed for a specified period of time. I utilize this for a christmas light display powering speakers for viewers. This runs on a headless Raspberry Pi Zero but could be adapted to other Pi's or similar devices.
+
+This enhances a standard timer relay with the following features:
 
 * Change the timer programmatically
 * Log when a button is pressed to determine usage
